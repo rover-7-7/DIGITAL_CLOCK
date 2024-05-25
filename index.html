@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DIGITAL CLOCK</title>
+    <style>
+      h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-family: sans-serif;
+        font-size: 500%;
+        color: aliceblue;
+        height: 60px;
+        /* width: 800px; */
+      }
+      h2 {
+        position: absolute;
+        left: 438px;
+        font-family: sans-serif;
+        font-size: 500%;
+        color: aliceblue;
+      }
+      #button1 {
+        position: absolute;
+        left: 450px;
+        top: 545px;
+      }
+      #button2 {
+        position: absolute;
+        left: 825px;
+        top: 550px;
+      }
+      #q {
+        position: absolute;
+        top: 150px;
+        left: 46px;
+        color: yellow;
+      }
+      #p {
+        position: absolute;
+        top: 25px;
+        left: 54px;
+      }
+
+      h5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 605px;
+        left: 585px;
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(6, 1, 1)">
+    <h1>Digital Clock</h1>
+    <h2 style="color: aliceblue; font-weight: bold"></h2>
+
+    <header>
+      <h2 style="height: 500px; width: 1310px; color: rgb(17, 75, 125)">
+        <div id="p"><span id="time_span"></span></div>
+        <br />
+        <div id="q"><span id="date_span"></span></div>
+      </h2>
+    </header>
+
+    <button
+      style="height: 50px; width: 70px; color: black; font-weight: bold"
+      id="button1"
+    >
+      START
+    </button>
+    <button
+      style="height: 50px; width: 70px; color: black; font-weight: bold"
+      id="button2"
+    >
+      STOP
+    </button>
+    <h5 style="color: aliceblue">Created By Prince @2K23</h5>
+    <script src="job.js"></script>
+  </body>
+</html>
